@@ -249,7 +249,7 @@ nav li {
 .press {
   /*background-image: url(../images/bears_at_tws.jpg) no-repeat;*/
   /*background-width: 100%;*/
-  top: 229em;
+  top: 176em;
   display: flex;
   position: absolute;
 
@@ -260,13 +260,14 @@ nav li {
   /*overflow: auto;*/
 }
 
-.press-title {
+.press-text-title {
   /*display: flex;*/
   position: absolute;
   font-size: 72px;
     width: 100%;
   text-align: center;
   z-index: 2;
+  bottom: 9em;
 }
 
 .press-text {
@@ -276,6 +277,8 @@ nav li {
   text-align: center;
   z-index: 2;
   bottom: 34px;
+  font-size: 21px;
+  top: -29em;
 }
 
 .press img {
